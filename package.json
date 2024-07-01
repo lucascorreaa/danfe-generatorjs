@@ -1,5 +1,5 @@
 {
-  "name": "gerar-danfejs",
+  "name": "danfe-generatorjs",
   "version": "1.0.0",
   "main": "src/server.js",
   "type": "module",
