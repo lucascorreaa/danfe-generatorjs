@@ -16,7 +16,7 @@ app.post('/gerar-danfe', (req, res) => {
   parseString(xmlContent, (err, result) => {
     if (err) {
       console.error('Erro ao parsear XML:', err);
-      res.status(400).send('Erro ao parsear XML');
+      res.status(400).send('Mande o XML correto, está incompleto');
       return;
     }
 
